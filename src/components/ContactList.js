@@ -1,4 +1,4 @@
-import React from "react";
+import Contact from "./Contact";
 
 const users = [
     {
@@ -8,7 +8,7 @@ const users = [
     },
     {
         name: 'Maya Normusbutt',
-        avatar: 'https://randomuser.me/api/portraits/women/17.jpg',
+        avatar: 'https://randomuser.me/api/portraits/women/55.jpg',
         online: true
     },
     {
@@ -23,7 +23,9 @@ const users = [
     },
     {
         name: 'Ho Lee Fock',
-        avatar: 'https://randomuser.me/api/portraits/women/55.jpg',
+        avatar: 'https://randomuser.me/api/portraits/women/17.jpg',
         online: true
     }
 ];
+
+export default users;
